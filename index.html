@@ -71,7 +71,7 @@
       margin-bottom: 20px;
       color: #2c3e50;
     }
-    section p, ul {
+    section p, ul, a {
       font-size: 1rem;
       line-height: 1.6;
     }
@@ -94,6 +94,24 @@
       text-decoration: none;
       z-index: 1001;
     }
+    .pdf-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .pdf-links a {
+      background: #3498db;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .pdf-links a:hover {
+      background: #2980b9;
+    }
   </style>
 </head>
 <body>
@@ -103,6 +121,7 @@
     <div>
       <a href="#about">About</a>
       <a href="#services">Services</a>
+      <a href="#lawpdfs">Law PDFs</a>
       <a href="#contact">Contact</a>
     </div>
   </nav>
@@ -127,6 +146,18 @@
       <li>Property and Land Disputes</li>
       <li>Online Legal Advice</li>
     </ul>
+  </section>
+
+  <section id="lawpdfs">
+    <h2>Download Law PDFs</h2>
+    <div class="pdf-links">
+      <a href="pdfs/Indian_Penal_Code.pdf" target="_blank">Indian Penal Code (IPC)</a>
+      <a href="pdfs/Code_of_Civil_Procedure.pdf" target="_blank">Civil Procedure Code (CPC)</a>
+      <a href="pdfs/Code_of_Criminal_Procedure.pdf" target="_blank">Criminal Procedure Code (CrPC)</a>
+      <a href="pdfs/Constitution_of_India.pdf" target="_blank">Constitution of India</a>
+      <a href="pdfs/Evidence_Act.pdf" target="_blank">Indian Evidence Act</a>
+      <a href="pdfs/Family_Law.pdf" target="_blank">Family Law</a>
+    </div>
   </section>
 
   <section id="contact">
