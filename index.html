@@ -3,40 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Advocate Chetan Gupta - Legal Solutions</title>
+  <title>Advocate Chetan Gupta - Trusted Legal Advice</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
       font-family: 'Poppins', sans-serif;
-      background: url('background.jpg') no-repeat center center/cover;
+      background: #f5f7fa;
       color: #333;
     }
     nav {
-      background: rgba(0, 0, 0, 0.7);
+      background: #2c3e50;
       padding: 1rem 2rem;
-      position: sticky;
-      top: 0;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      z-index: 1000;
     }
-    nav h1 {
-      color: #fff;
-      margin: 0;
+    nav h1, nav a {
+      color: white;
+      text-decoration: none;
     }
     nav a {
-      color: #fff;
       margin-left: 20px;
-      text-decoration: none;
       font-weight: 600;
     }
     .hero {
       text-align: center;
       padding: 100px 20px;
-      color: #fff;
-      background: rgba(0,0,0,0.4);
+      background: #3498db;
+      color: white;
     }
     .hero h2 {
       font-size: 3rem;
@@ -46,23 +41,11 @@
       font-size: 1.2rem;
       margin-bottom: 30px;
     }
-    .hero a {
-      background: #25D366;
-      color: white;
-      padding: 12px 30px;
-      text-decoration: none;
-      border-radius: 50px;
-      font-weight: bold;
-      transition: background 0.3s;
-    }
-    .hero a:hover {
-      background: #128C7E;
-    }
     section {
-      background: #fff;
-      padding: 60px 20px;
       max-width: 1000px;
       margin: 40px auto;
+      padding: 40px 20px;
+      background: white;
       border-radius: 12px;
       box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     }
@@ -71,15 +54,20 @@
       margin-bottom: 20px;
       color: #2c3e50;
     }
-    section p, ul, a {
-      font-size: 1rem;
-      line-height: 1.6;
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
     }
     footer {
       text-align: center;
       padding: 20px;
       background: #2c3e50;
       color: white;
+      margin-top: 40px;
     }
     .whatsapp-button {
       position: fixed;
@@ -92,13 +80,12 @@
       font-size: 24px;
       box-shadow: 0 5px 15px rgba(0,0,0,0.3);
       text-decoration: none;
-      z-index: 1001;
     }
     .pdf-links {
       display: flex;
       flex-wrap: wrap;
-      gap: 15px;
       justify-content: center;
+      gap: 10px;
       margin-top: 20px;
     }
     .pdf-links a {
@@ -116,95 +103,72 @@
 </head>
 <body>
 
-  <nav>
-    <h1>Adv. Chetan Gupta</h1>
-    <div>
-      <a href="#about">About</a>
-      <a href="#services">Services</a>
-      <a href="#lawpdfs">Law PDFs</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </nav>
-
-  <div class="hero">
-    <h2>Trusted Legal Solutions</h2>
-    <p>Expert Advice | Quick Solutions | Client First</p>
-    <a href="https://wa.me/918708464600">Message on WhatsApp</a>
+<nav>
+  <h1>Adv. Chetan Gupta</h1>
+  <div>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#lawpdfs">Law PDFs</a>
+    <a href="#contact">Contact</a>
   </div>
+</nav>
 
-  <section id="about">
-    <h2>About Advocate Chetan Gupta</h2>
-    <p>Advocate Chetan Gupta is a highly experienced legal professional providing expert solutions in civil, criminal, family, and property law. With a strong focus on integrity, transparency, and client satisfaction, he ensures that every case gets the attention and strategy it deserves.</p>
-  </section>
+<div class="hero">
+  <h2>Trusted Legal Advice</h2>
+  <p>Expert Guidance | Quick Solutions | Client First</p>
+</div>
 
-  <section id="services">
-    <h2>Our Legal Services</h2>
-    <ul>
-      <li>Civil Disputes & Litigation</li>
-      <li>Criminal Defense & Bail Matters</li>
-      <li>Family Law Consultations</li>
-      <li>Property and Land Disputes</li>
-      <li>Online Legal Advice</li>
-    </ul>
-  </section>
+<section id="about">
+  <h2>About Advocate Chetan Gupta</h2>
+  <p>Advocate Chetan Gupta is an experienced legal expert providing trusted solutions in civil, criminal, family, property, and land disputes. Dedicated to transparency, integrity, and client satisfaction.</p>
+</section>
 
-  <section id="lawpdfs">
-    <h2>Download Law PDFs</h2>
-    <div class="pdf-links">
-      <a href="pdfs/Indian_Penal_Code.pdf" target="_blank">Indian Penal Code (IPC)</a>
-      <a href="pdfs/Code_of_Civil_Procedure.pdf" target="_blank">Civil Procedure Code (CPC)</a>
-      <a href="pdfs/Code_of_Criminal_Procedure.pdf" target="_blank">Criminal Procedure Code (CrPC)</a>
-      <a href="pdfs/Constitution_of_India.pdf" target="_blank">Constitution of India</a>
-      <a href="pdfs/Evidence_Act.pdf" target="_blank">Indian Evidence Act</a>
-      <a href="pdfs/Family_Law.pdf" target="_blank">Family Law</a>
-    </div>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Information</h2>
-    <p><strong>Phone:</strong> +91-8708464600</p>
-    <p><strong>Email:</strong> adv.chetangupta@gmail.com</p>
-    <p><strong>Office:</strong> Chamber No.42, Civil Court, Narwana, Haryana</p>
-  </section>
-
-  <footer>
-    &copy; 2025 Advocate Chetan Gupta | All Rights Reserved
-  </footer>
-
-  <a href="https://wa.me/918708464600" class="whatsapp-button">&#128222;</a>
-
-</body>
-</html>
 <section id="services">
   <h2>Our Legal Services</h2>
   <ul>
-    <li>1. Civil Disputes & Litigation</li>
-    <li>2. Criminal Defense & Bail Matters</li>
-    <li>3. Family Law Consultations</li>
-    <li>4. Property and Land Disputes</li>
-    <li>5. Online Legal Advice</li>
+    <li>Civil Disputes & Litigation</li>
+    <li>Criminal Defense & Bail Matters</li>
+    <li>Family Law & Matrimonial Cases</li>
+    <li>Property and Land Disputes</li>
+    <li>Online Legal Advice & Consultation</li>
   </ul>
 </section>
+
 <section id="lawpdfs">
-    <h2>Download Law PDFs</h2>
-    <div class="pdf-links">
-      <a href="pdfs/Indian_Penal_Code.pdf" target="_blank">Indian Penal Code (IPC)</a>
-      <a href="pdfs/Code_of_Civil_Procedure.pdf" target="_blank">Civil Procedure Code (CPC)</a>
-      <a href="pdfs/Code_of_Criminal_Procedure.pdf" target="_blank">Criminal Procedure Code (CrPC)</a>
-      <a href="pdfs/Constitution_of_India.pdf" target="_blank">Constitution of India</a>
-      <a href="pdfs/Evidence_Act.pdf" target="_blank">Indian Evidence Act</a>
-      <a href="pdfs/Family_Law.pdf" target="_blank">Family Law</a>
-      <a href="pdfs/Bharatiya_Nyay_Sanhita.pdf" target="_blank">Bharatiya Nyaya Sanhita (BNS)</a>
-      <a href="pdfs/Bharatiya_Nagarik_Suraksha_Sanhita.pdf" target="_blank">Bharatiya Nagarik Suraksha Sanhita (BNSS)</a>
-      <a href="pdfs/Bharatiya_Sakshya_Adhiniyam.pdf" target="_blank">Bharatiya Sakshya Adhiniyam (BSA)</a>
-      <!-- New PDFs added below -->
-      <a href="pdfs/Stamp_Act.pdf" target="_blank">Stamp Act</a>
-      <a href="pdfs/Excise_Act.pdf" target="_blank">Excise Act</a>
-      <a href="pdfs/Land_Law.pdf" target="_blank">Land Law</a>
-      <a href="pdfs/Registration_Act.pdf" target="_blank">Registration Act</a>
-      <a href="pdfs/Transfer_of_Property_Act.pdf" target="_blank">Transfer of Property Act</a>
-      <a href="pdfs/NDPS_Act.pdf" target="_blank">NDPS Act</a>
-      <a href="pdfs/Motor_Vehicle_Act.pdf" target="_blank">Motor Vehicle Act (M.V. Act)</a>
-      <a href="pdfs/POCSO_Act.pdf" target="_blank">POCSO Act</a>
-    </div>
+  <h2>Download Law PDFs</h2>
+  <div class="pdf-links">
+    <a href="pdfs/Indian_Penal_Code.pdf" target="_blank">IPC</a>
+    <a href="pdfs/Code_of_Civil_Procedure.pdf" target="_blank">CPC</a>
+    <a href="pdfs/Code_of_Criminal_Procedure.pdf" target="_blank">CrPC</a>
+    <a href="pdfs/Constitution_of_India.pdf" target="_blank">Constitution</a>
+    <a href="pdfs/Evidence_Act.pdf" target="_blank">Evidence Act</a>
+    <a href="pdfs/Family_Law.pdf" target="_blank">Family Law</a>
+    <a href="pdfs/Bharatiya_Nyay_Sanhita.pdf" target="_blank">BNS</a>
+    <a href="pdfs/Bharatiya_Nagarik_Suraksha_Sanhita.pdf" target="_blank">BNSS</a>
+    <a href="pdfs/Bharatiya_Sakshya_Adhiniyam.pdf" target="_blank">BSA</a>
+    <a href="pdfs/Stamp_Act.pdf" target="_blank">Stamp Act</a>
+    <a href="pdfs/Excise_Act.pdf" target="_blank">Excise Act</a>
+    <a href="pdfs/Land_Law.pdf" target="_blank">Land Law</a>
+    <a href="pdfs/Registration_Act.pdf" target="_blank">Registration Act</a>
+    <a href="pdfs/Transfer_of_Property_Act.pdf" target="_blank">T.P. Act</a>
+    <a href="pdfs/NDPS_Act.pdf" target="_blank">NDPS Act</a>
+    <a href="pdfs/Motor_Vehicles_Act.pdf" target="_blank">M.V. Act</a>
+    <a href="pdfs/POCSO_Act.pdf" target="_blank">POCSO Act</a>
+  </div>
 </section>
+
+<section id="contact">
+  <h2>Contact Advocate Chetan Gupta</h2>
+  <p><strong>WhatsApp:</strong> <a href="https://wa.me/918708464600">8708464600</a></p>
+  <p><strong>Email:</strong> adv.chetangupta@gmail.com</p>
+  <p><strong>Office:</strong> Chamber No. 42, Civil Court, Narwana, Jind, Haryana</p>
+</section>
+
+<footer>
+  &copy; 2025 Advocate Chetan Gupta | All Rights Reserved
+</footer>
+
+<a href="https://wa.me/918708464600" class="whatsapp-button">&#128222;</a>
+
+</body>
+</html>
