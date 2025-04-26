@@ -3,165 +3,144 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Advocate Free Advice</title>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap">
+  <title>Advocate Chetan Gupta - Legal Solutions</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     body {
-      font-family: 'Poppins', sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f7f7f7;
+      font-family: 'Poppins', sans-serif;
+      background: url('background.jpg') no-repeat center center/cover;
       color: #333;
     }
-
-    header {
-      background-image: url('https://yourimageurl.com/legal-header.jpg'); /* Replace with a legal-themed image */
-      background-size: cover;
-      background-position: center;
-      color: #fff;
-      text-align: center;
-      padding: 60px 20px;
-      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 3em;
-      text-transform: uppercase;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    }
-
-    header p {
-      margin-top: 15px;
-      font-size: 1.2em;
-    }
-
     nav {
-      background-color: #2980b9;
-      padding: 15px;
-      text-align: center;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 1rem 2rem;
       position: sticky;
       top: 0;
-      z-index: 10;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
     }
-
+    nav h1 {
+      color: #fff;
+      margin: 0;
+    }
     nav a {
       color: #fff;
+      margin-left: 20px;
       text-decoration: none;
-      margin: 0 15px;
-      font-weight: bold;
-      text-transform: uppercase;
+      font-weight: 600;
     }
-
-    .section {
-      padding: 40px 20px;
-      max-width: 900px;
-      margin: 40px auto;
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    }
-
-    .section img {
-      max-width: 100%;
-      border-radius: 10px;
-      margin-bottom: 20px;
-    }
-
-    .section h2 {
-      color: #34495e;
-      margin-bottom: 20px;
-      border-bottom: 2px solid #2980b9;
-      display: inline-block;
-      padding-bottom: 5px;
-    }
-
-    .section p {
-      line-height: 1.6;
-      font-size: 1.1em;
-    }
-
-    .button {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 25px;
-      background-color: #2980b9;
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
       color: #fff;
+      background: rgba(0,0,0,0.4);
+    }
+    .hero h2 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+    .hero a {
+      background: #25D366;
+      color: white;
+      padding: 12px 30px;
       text-decoration: none;
-      border-radius: 5px;
+      border-radius: 50px;
       font-weight: bold;
-      transition: background-color 0.3s ease;
+      transition: background 0.3s;
     }
-
-    .button:hover {
-      background-color: #1f5a86;
+    .hero a:hover {
+      background: #128C7E;
     }
-
+    section {
+      background: #fff;
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 40px auto;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+    section p, ul {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
     footer {
       text-align: center;
       padding: 20px;
-      background-color: #34495e;
-      color: #fff;
-      font-size: 0.9em;
+      background: #2c3e50;
+      color: white;
     }
-
-    footer a {
-      color: #fff;
-      text-decoration: underline;
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      text-decoration: none;
+      z-index: 1001;
     }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Advocate Free Advice</h1>
-    <p>Your Trusted Legal Partner</p>
-  </header>
+
   <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About Us</a>
-    <a href="#services">Services</a>
-    <a href="#resources">Resources</a>
-    <a href="#contact">Contact Us</a>
+    <h1>Adv. Chetan Gupta</h1>
+    <div>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </div>
   </nav>
-  <section id="home" class="section">
-    <img src="https://yourimageurl.com/legal-home.jpg" alt="Legal Advice Image"> <!-- Replace with a legal-themed image -->
-    <h2>Welcome</h2>
-    <p>Welcome to our platform, where legal advice is just a click away. We aim to guide you through legal challenges with clarity and confidence.</p>
-    <a href="#contact" class="button">Get Free Legal Advice</a>
+
+  <div class="hero">
+    <h2>Trusted Legal Solutions</h2>
+    <p>Expert Advice | Quick Solutions | Client First</p>
+    <a href="https://wa.me/918708464600">Message on WhatsApp</a>
+  </div>
+
+  <section id="about">
+    <h2>About Advocate Chetan Gupta</h2>
+    <p>Advocate Chetan Gupta is a highly experienced legal professional providing expert solutions in civil, criminal, family, and property law. With a strong focus on integrity, transparency, and client satisfaction, he ensures that every case gets the attention and strategy it deserves.</p>
   </section>
-  <section id="about" class="section">
-    <img src="https://yourimageurl.com/legal-about.jpg" alt="About Us Image"> <!-- Replace with a legal-themed image -->
-    <h2>About Us</h2>
-    <p>Advocate Free Advice is dedicated to making legal guidance accessible. Our team of experienced professionals specializes in various areas of law to serve your needs.</p>
+
+  <section id="services">
+    <h2>Our Legal Services</h2>
+    <ul>
+      <li>Civil Disputes & Litigation</li>
+      <li>Criminal Defense & Bail Matters</li>
+      <li>Family Law Consultations</li>
+      <li>Property and Land Disputes</li>
+      <li>Online Legal Advice</li>
+    </ul>
   </section>
-  <section id="services" class="section">
-    <img src="https://yourimageurl.com/legal-services.jpg" alt="Services Image"> <!-- Replace with a legal-themed image -->
-    <h2>Our Services</h2>
-    <p>Explore our expertise in Family Law, Civil Law, Criminal Law, and Corporate Law. Let us guide you through legal complexities with ease.</p>
-    <a href="#contact" class="button">Discover More</a>
+
+  <section id="contact">
+    <h2>Contact Information</h2>
+    <p><strong>Phone:</strong> +91-8708464600</p>
+    <p><strong>Email:</strong> adv.chetangupta@gmail.com</p>
+    <p><strong>Office:</strong> Chamber No.42, Civil Court, Narwana, Haryana</p>
   </section>
-  <section id="resources" class="section">
-    <img src="https://yourimageurl.com/legal-resources.jpg" alt="Resources Image"> <!-- Replace with a legal-themed image -->
-    <h2>Resources</h2>
-    <p>Access free articles, guides, and FAQs to simplify legal processes and empower you with knowledge.</p>
-  </section>
-  <section id="contact" class="section">
-    <img src="https://yourimageurl.com/legal-contact.jpg" alt="Contact Us Image"> <!-- Replace with a legal-themed image -->
-    <h2>Contact Us</h2>
-    <p>Have questions? Need advice? Fill out the form below or reach us directly at <a href="mailto:contact@example.com">contact@example.com</a>.</p>
-    <form>
-      <label for="name">Name:</label><br>
-      <input type="text" id="name" name="name" required><br><br>
-      <label for="email">Email:</label><br>
-      <input type="email" id="email" name="email" required><br><br>
-      <label for="query">Query/Message:</label><br>
-      <textarea id="query" name="query" rows="4" required></textarea><br><br>
-      <button type="submit" class="button">Submit</button>
-    </form>
-  </section>
+
   <footer>
-    <p>&copy; 2025 Advocate Free Advice. All Rights Reserved.</p>
-    <p>Visit us: <a href="https://yourwebsiteurl.com">www.yourwebsiteurl.com</a></p>
+    &copy; 2025 Advocate Chetan Gupta | All Rights Reserved
   </footer>
+
+  <a href="https://wa.me/918708464600" class="whatsapp-button">&#128222;</a>
+
 </body>
 </html>
